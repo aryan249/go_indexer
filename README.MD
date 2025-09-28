@@ -21,3 +21,8 @@
 ```sh
 go run main.go
 ```
+## Run using docker
+```sh
+    docker build -t vault-indexer .  
+    docker run --env-file .env vault-indexer
+```
